@@ -6,8 +6,7 @@ Según Wikipedia, TripAdvisor es una empresa estadounidense de sitios web de via
 
 La siguiente figura muestra un pantallazo de la página de tripadvisor vinculada a la ciudad de Toledo y que es objeto de este estudio. 
 
-![Alt text](https://github.com/jlombanado/M2.851--Tipologia-y-Ciclo-de-vida-de-los-datos/blob/master/tripadvisor_analysis.png "fichero")
-
+![Alt text](https://github.com/jlombanado/M2.851--Tipologia-y-Ciclo-de-vida-de-los-datos/blob/master/Toledo.png "Toledo")
 
 # Web Scrapping
 
@@ -17,3 +16,6 @@ El dataset resultante contiene sólo 4 variables principales (título, opinión,
 
 La aplicación generada dispone además de la posibilidad de introducir por código el número de páginas sobre las que se quiere realizar web scraping. Por defecto se ha marcado a 20, por considerar esa cantidad suficiente para hacer demostración de funcionalidad, pero la idea sería poder introducir tanto la web de referencia como el número de páginas como parámetro y así no tener que modificar el código.
 
+A continuación se ofrece un pantallazo del csv generado y que contiene las opiniones y ratings recogidos en tripadvisor con respecto a la ciudad de Toledo:
+
+![Alt text](https://github.com/jlombanado/M2.851--Tipologia-y-Ciclo-de-vida-de-los-datos/blob/master/tripadvisor_analysis.png "fichero")
