@@ -9,3 +9,10 @@ La siguiente figura muestra un pantallazo de la página de tripadvisor vinculada
 
 
 # Web Scrapping
+
+Para el desarrollo de la aplicación se ha utilizado python, y como entorno de trabajo, Anaconda. Como librerías se ha utilizado beautifulSoup para la lectura y desglose de las variables desde html y urlopen para la lectura de la web. Así mismo, en su segunda parte, la aplicación transforma el resultado del ejercicio de web scrapping realizado a dataframe y genera un fichero csv con la salida resultante, para lo cual se ha utilizado también la librería pandas.
+
+El dataset resultante contiene sólo 4 variables principales (título, opinión, rate y fecha) ya que he considerado que dicha información era suficiente para dar respuesta al objetivo del ejercicio, pero para futuras mejoras y ya orientándolo más al análisis de sentimiento propondría introducir datos demográficos de clientes (edad, sexo, nacionalidad). Una particularidad de tripadvisor es que los clientes que opinan deben haber creado un perfil previamente y este es público, por lo que sería muy interesante enriquecer nuestro dataset con dicha información.
+
+La aplicación generada dispone además de la posibilidad de introducir por código el número de páginas sobre las que se quiere realizar web scraping. Por defecto se ha marcado a 20, por considerar esa cantidad suficiente para hacer demostración de funcionalidad, pero la idea sería poder introducir tanto la web de referencia como el número de páginas como parámetro y así no tener que modificar el código.
+
