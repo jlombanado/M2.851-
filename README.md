@@ -6,6 +6,7 @@ Según Wikipedia, TripAdvisor es una empresa estadounidense de sitios web de via
 
 La siguiente figura muestra un pantallazo de la página de tripadvisor vinculada a la ciudad de Toledo y que es objeto de este estudio. 
 
+![Alt text](https://github.com/jlombanado/M2.851--Tipologia-y-Ciclo-de-vida-de-los-datos/blob/master/tripadvisor_analysis.png "fichero")
 
 
 # Web Scrapping
